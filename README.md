@@ -91,7 +91,7 @@ spreadsheet formula injection.
 
 ## Download
 
-Grab [StayUnexposed.exe](https://github.com/StayUnexposed/StayUnexposed-windows/releases/download/v1.4.1/StayUnexposed.exe).
+Grab [StayUnexposed.exe](https://github.com/StayUnexposed/StayUnexposed-windows/releases/download/latest/StayUnexposed.exe).
 The current version is in the [`VERSION`](VERSION) file.
 
 ## Development
