@@ -8,6 +8,32 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and
 
 ---
 
+## 1.5.2 - 2026-11-20
+
+### Changed
+- The referral page is now titled **Referral** (was "Invite & earn").
+- Claiming a gift card no longer asks you to pick a brand or enter an email. One **Claim gift card** button
+  issues the reward and reveals the gift-card code right on the card; the header and reward card now say so.
+- **All installs**: the back control is a proper button (full hit-box), and the list fills the page and
+  scrolls on its own, so there is no second page scrollbar.
+
+  ---
+
+## 1.5.1 - 2026-11-19
+
+### Changed
+- **Invite & earn** redesigned into the two-column campaign layout: a reward-progress card (badge, count,
+  percent, progress bar, hint banner and the inline claim / claimed controls), your link with a prefilled
+  message, and a Friends-who-joined list with avatars on the left; a Reward summary, Ground rules and a
+  Top-referrers leaderboard on the right.
+
+### Added
+- **Show QR** now draws a real, scannable QR code of your invite link (offline).
+- A full **All installs** view (reached from "View all installs"): search, Counted / Rejected filters and an
+  Export CSV button.
+  
+---
+
 ## [1.4.1] - 2026-10-28
 
 ### Monitoring
