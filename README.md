@@ -10,6 +10,10 @@
 
 ---
 
+<p align="center">
+  <img src="./docs/screenshot.png" alt="Stay Unexposed — search page with index growth and domain results" width="1259" />
+</p>
+
 # Stay Unexposed — Leaked Credential Search & Monitoring
 
 ## What it is for
