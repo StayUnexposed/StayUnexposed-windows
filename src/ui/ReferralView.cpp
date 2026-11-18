@@ -192,7 +192,7 @@ void ReferralView::draw() {
                std::to_string(kReferralsPerReward) + " users)",
            cw);
   ImGui::SameLine();
-  statCard("next", ICON_STAR, Violet, "NEXT $1", std::to_string(toward) + " / " + std::to_string(kReferralsPerReward),
+  statCard("next", ICON_STAR, Violet, "NEXT $5", std::to_string(toward) + " / " + std::to_string(kReferralsPerReward),
            std::to_string(kReferralsPerReward - toward) + " more to earn " + formatDollars(kRewardPerGroup), cw,
            kReferralsPerReward, toward);
 

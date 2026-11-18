@@ -281,8 +281,8 @@ void App::installPendingUpdate() {
 }
 
 void App::drawReferralNote() {
-  // [gift]  Invite friends, earn rewards                     [progress] 2 / 10  [Copy invite link] [View referrals] [x]
-  //         You will receive $1 for every 10 users you refer.   to next $1
+  // [gift]  Invite friends, earn rewards                     [progress] 2 / 20  [Copy invite link] [View referrals] [x]
+  //         You will receive $5 for every 20 users you refer.   to next $5
   const float fs = ImGui::GetFontSize();
   const float h = fs * 3.1f;
   const double now = ImGui::GetTime();
@@ -359,7 +359,7 @@ void App::drawReferralNote() {
           false);
   }
 
-  // progress to the next reward: kReferralsPerReward segments + "2 / 10"
+  // progress to the next reward: kReferralsPerReward segments + "2 / 20"
   const size_t n = referral_.count();
   const int toward = towardNextReward(n);
   const float segW = fs * 1.1f, segH = 6.0f, segGap = 4.0f;

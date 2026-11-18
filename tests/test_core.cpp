@@ -322,9 +322,9 @@ static void testUpdater() {
 }
 
 static void testReferrals() {
-  CHECK(rewardGroups(0) == 0 && rewardGroups(9) == 0 && rewardGroups(10) == 1 && rewardGroups(25) == 2);
-  CHECK(towardNextReward(7) == 7 && towardNextReward(20) == 0);
-  CHECK(formatDollars(rewardDollars(25)) == "$2.00");
+  CHECK(rewardGroups(0) == 0 && rewardGroups(19) == 0 && rewardGroups(20) == 1 && rewardGroups(45) == 2);
+  CHECK(towardNextReward(7) == 7 && towardNextReward(20) == 0 && towardNextReward(25) == 5);
+  CHECK(formatDollars(rewardDollars(25)) == "$5.00" && formatDollars(rewardDollars(45)) == "$10.00");
   auto st = parseReferralStatus(nlohmann::json::parse(
       R"({"referrals":[{"id":"SUAAAABBBBCD","joined_at":"2026-11-01T10:00:00Z"},"SUEEEEFFFFGH",{}]})"));
   CHECK(st.referrals.size() == 2 && st.referrals[0].joinedAt == "2026-11-01T10:00:00Z" &&

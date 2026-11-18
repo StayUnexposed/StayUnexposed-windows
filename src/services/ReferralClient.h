@@ -12,9 +12,9 @@ namespace su {
 
 class HttpClient;
 
-// Referral programme: a user earns $1 for every 10 users who install the app with their referral ID.
-inline constexpr int kReferralsPerReward = 10;
-inline constexpr double kRewardPerGroup = 1.0;  // dollars
+// Referral programme: a user earns $5 for every 20 users who install the app with their referral ID.
+inline constexpr int kReferralsPerReward = 20;
+inline constexpr double kRewardPerGroup = 5.0;  // dollars
 
 struct ReferralEntry {
   std::string id;        // the referred user's ID (SU...)
