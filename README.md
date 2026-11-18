@@ -26,7 +26,7 @@
 
 ## Quick start
 
-1. Download `StayUnexposed.exe` and run it (single file, no installer).
+1. Download [StayUnexposed.exe](https://github.com/StayUnexposed/StayUnexposed-windows/releases/download/latest/StayUnexposed.exe) and run it (single file, no installer).
 2. Type an email address, username or domain into the search box and press <kbd>Enter</kbd>.
 3. Click **Add Monitoring** above the results to add the value to your watchlist.
 4. Open **Monitoring** to set **Daily check at** and turn on **Start with Windows**.
